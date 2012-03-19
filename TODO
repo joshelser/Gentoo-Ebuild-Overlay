@@ -1,0 +1,9 @@
+General list of things TODO here
+
+* Make an app-admin/apache-accumulo-eselect
+* Proper /etc/conf.d linking
+* Install $ACCUMULO_HOME/bin/etc_initd_accumulo to /etc/init.d/accumulo
+    * Ensure proper syntax
+* `sed` JAVA_HOME, ZOOKEEPER_HOME, and ACCUMULO_HOME into $ACCUMULO_HOME/conf/accumulo-env.sh
+* Auto-install accumulo-site.xml to be one of the preset configs provided (1GB/2GB?)
+* Auto-create $ACCUMULO_HOME/conf/{master,slaves,gc,monitor,tracer}

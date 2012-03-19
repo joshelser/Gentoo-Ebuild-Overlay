@@ -9,7 +9,6 @@ EAPI="2"
 
 inherit eutils java-utils-2
 
-# Ease of cleanup when Accumulo leaves ASF incubation
 MY_PV="-incubating"
 
 DESCRIPTION="A robust, scalable distributed key/value store with cell-based 
@@ -20,7 +19,7 @@ SRC_URI="mirror://apache/incubator/accumulo/${PV}${MY_PV}/accumulo-${PV}${MY_PV}
 LICENSE="Apache-2.0"
 
 # Until I can figure out how to deal with multiple /etc/env.d/99accumulo
-#SLOT="1"
+#SLOT="2"
 SLOT="0"
 
 KEYWORDS="~amd64 ~x86"
